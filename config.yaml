@@ -1,0 +1,13 @@
+version: 1
+
+postgres:
+  host: 127.0.0.1
+  port: 5432
+  user: raziel
+  password: 1q2w3e4r
+  db: webtronics
+
+uvicorn:
+  host: 0.0.0.0
+  port: 8000
+  reload: True

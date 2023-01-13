@@ -22,8 +22,9 @@ app for users posts
 4. Move to directory webtronics and run **pip install -r requirements.txt**.
 5. In **config.yaml** change settings for connecting to database in section **postgres**.
 6. Run **python main.py createdb**. It will create all tables and relations.
-7. In config.yaml change server settings int section **uvicorn**
-8. Run **python main.py**
+7. In **config.yaml** change server settings int section **uvicorn**
+8. In **.env** file change _**secret**_ value. It will user for bearer authentication.
+9. Run **python main.py**
 
 ## Usage
 
